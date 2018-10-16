@@ -7,7 +7,7 @@ import numpy as np
 
 checked_spacy_tags = ['PERSON', 'LOC', 'ORG', 'GPE']
 checked_tags = ['PER', 'LOC', 'ORG']
-df_columns = ['WikiGold Token','WikiGold Tag', 'Predicted Token', 'Predicted Tag', 'Condition']
+df_columns = ['WikiGold Token','WikiGold Tag', 'Predicted Tag', 'Predicted Tag', 'Condition']
 
 # In the evaluation, we ignore the MISC type
 # and map the gold standard types:

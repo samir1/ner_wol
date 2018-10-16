@@ -6,7 +6,7 @@ import nltk
 
 checked_tags = ['PER', 'LOC', 'ORG']
 checked_tags_stanford = ['PERSON', 'ORGANIZATION', 'LOCATION']
-df_columns = ['WikiGold Token','WikiGold Tag', 'Predicted Token', 'Predicted Tag', 'Condition']
+df_columns = ['WikiGold Token','WikiGold Tag', 'Predicted Tag', 'Predicted Tag', 'Condition']
 
 
 def replace_wiki_tags(word_and_tag):
